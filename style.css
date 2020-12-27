@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
     outline: none;
+    scroll-behavior: smooth;
   }
   :root{
     --bg-black-900:#000000;
@@ -114,6 +115,10 @@ main {
     background: url("../images/background.png");
     background-size: cover;
     padding: 0rem 5rem;
+  }
+  .header{
+    position: fixed;;
+    top: 0;
   }
 .nav-links {
     display: flex;
