@@ -239,114 +239,6 @@ main {
     cursor: pointer;
     display: none;
   }
-  @media(max-width:991px){
-    header{
-        padding: 0 20px;
-    }
-    .menu-toggle{
-        display: block;
-    }
-    header nav{
-        
-        position: absolute;
-        width: 100%;
-        height: calc(100vh - 50px);
-        background: #0f0f0f;
-        top: 50px;
-        left: -100%;
-        transition: 0.5s;
-    }
-    header nav.active{
-        left: 0;
-    }
-    header nav ul{
-        display: block;
-        text-align: center;
-    }
-    header nav ul li a{
-        border-bottom: 1px solid rgba(0,0,0,.2);
-    }
-  }
-  @media(max-width:643px){
-    .intro-text{
-      font-size: 1rem;
-    }
-    .slider{
-      transform: translateY(200%);
-    }
-  }
-  @media(max-width:560px){
-    .intro-text{
-      font-size: 0.4rem;
-    }
-  }
-  @media(max-width:430px){
-    
-  .about-section .skills .skill-item .progress-bar span{
-    font-size: 12px!important;
-    font-weight: 300!important;
-    right: -10px!important;
-  }
-  .about-section .skills .skill-item p{
-    font-size: 12px!important;
-    font-weight: 300!important;
-    right: -10px !important;
-  }
-  }
-  @media(max-width:300px){
-    .about-section .skills .skill-item .progress-bar span{
-      font-size: 10px!important;
-      font-weight: 300!important;
-      right: -10px!important;
-    }
-    .about-section .skills .skill-item p{
-      font-size: 10px!important;
-      font-weight: 300!important;
-      right: -10px !important;
-    }
-    }
-    @media(max-width:500px){
-      .about-section .timeline .timeline-item-inner{
-        padding: 10px!important;
-      }
-      .about-section .timeline .timeline-item-inner h3{
-        font-size: 16px!important;
-      }
-      .about-section .timeline .timeline-item-inner h4{
-        font-size: 12px!important;
-      }
-      .about-section .timeline .timeline-item-inner p{
-        font-size: 12px!important;
-      }
-      }
-      @media(max-width:411px){
-        .about-section .timeline .timeline-item-inner{
-          padding: 6px!important;
-        }
-        .about-section .timeline .timeline-item-inner h3{
-          font-size: 12px!important;
-        }
-        .about-section .timeline .timeline-item-inner h4{
-          font-size: 10px!important;
-        }
-        .about-section .timeline .timeline-item-inner p{
-          font-size: 10px!important;
-        }
-        }
-        @media(max-width:400px){
-          .about-section .timeline .timeline-item-inner{
-            padding: 4px!important;
-          }
-          .about-section .timeline .timeline-item-inner h3{
-            font-size: 6px!important;
-          }
-          .about-section .timeline .timeline-item-inner h4{
-            font-size: 8px!important;
-          }
-          .about-section .timeline .timeline-item-inner p{
-            font-size: 8px!important;
-          }
-          }
   /*NAVIGATION END */
   /*landing page */
   .banner{
@@ -743,3 +635,111 @@ footer.dark-style {
 footer.dark-style h1 {
       color: #fff;
 }
+@media(max-width:991px){
+  header{
+      padding: 0 20px;
+  }
+  .menu-toggle{
+      display: block;
+  }
+  header nav{
+      
+      position: absolute;
+      width: 100%;
+      height: calc(100vh - 50px);
+      background: #0f0f0f;
+      top: 50px;
+      left: -100%;
+      transition: 0.5s;
+  }
+  header nav.active{
+      left: 0;
+  }
+  header nav ul{
+      display: block;
+      text-align: center;
+  }
+  header nav ul li a{
+      border-bottom: 1px solid rgba(0,0,0,.2);
+  }
+}
+@media(max-width:643px){
+  .intro-text{
+    font-size: 1rem;
+  }
+  .slider{
+    transform: translateY(200%);
+  }
+}
+@media(max-width:560px){
+  .intro-text{
+    font-size: 0.4rem;
+  }
+}
+@media(max-width:430px){
+  
+.about-section .skills .skill-item .progress-bar span{
+  font-size: 12px;
+  font-weight: 300;
+  right: -10px;
+}
+.about-section .skills .skill-item p{
+  font-size: 12px;
+  font-weight: 300;
+  right: -10px ;
+}
+}
+@media(max-width:300px){
+  .about-section .skills .skill-item .progress-bar span{
+    font-size: 10px;
+    font-weight: 300;
+    right: -10px;
+  }
+  .about-section .skills .skill-item p{
+    font-size: 10px;
+    font-weight: 300;
+    right: -10px ;
+  }
+  }
+@media(max-width:500px){
+    .about-section .timeline .timeline-item-inner{
+      padding: 10px;
+    }
+    .about-section .timeline .timeline-item-inner h3{
+      font-size: 16px;
+    }
+    .about-section .timeline .timeline-item-inner h4{
+      font-size: 12px;
+    }
+    .about-section .timeline .timeline-item-inner p{
+      font-size: 12px;
+    }
+    }
+@media(max-width:411px){
+      .about-section .timeline .timeline-item-inner{
+        padding: 6px;
+      }
+      .about-section .timeline .timeline-item-inner h3{
+        font-size: 12px;
+      }
+      .about-section .timeline .timeline-item-inner h4{
+        font-size: 10px;
+      }
+      .about-section .timeline .timeline-item-inner p{
+        font-size: 10px;
+      }
+      }
+@media(max-width:400px){
+        .about-section .timeline .timeline-item-inner{
+          padding: 4px;
+        }
+        .about-section .timeline .timeline-item-inner h3{
+          font-size: 6px;
+        }
+        .about-section .timeline .timeline-item-inner h4{
+          font-size: 8px;
+        }
+        .about-section .timeline .timeline-item-inner p{
+          font-size: 8px;
+        }
+        }
